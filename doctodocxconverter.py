@@ -15,7 +15,7 @@ path = sys.argv[1]
 # Create list of paths to .doc files
 time.sleep(4)
 pythoncom.CoInitialize()
-path1 = 'C:\\Users\\jw185257\\Desktop\\Disaster Recovery\\' + path + '\\*.doc'
+path1 = 'C:\\..\\..\\..\\..\\' + path + '\\*.doc'
 paths = glob(path1)
 mouse = Controller()
 
